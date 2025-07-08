@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.gpay-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gpay-box {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.gpay-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.gpay-box h2 {
+  margin-bottom: 20px;
+  color: #202124;
+}
+
+input[type='tel'] {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+.terms {
+  margin-top: 15px;
+  font-size: 0.8rem;
+  color: #555;
+}
